@@ -8,6 +8,7 @@ public class ShowTree {
 	static int am = 0;
 
 	public static void main(String[] args) {
+	    System.out.println("¬ведите набор 2^k-1 чисел через \",\" или \" \" по возростанию");
 		Integer[] arr = Arrays.stream(in.nextLine().replace(",", "").split(" ")).map(item -> Integer.parseInt(item))
 				.toArray(Integer[]::new);
 		int n = arr.length;
